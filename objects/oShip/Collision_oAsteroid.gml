@@ -4,4 +4,6 @@
 
 instance_destroy();
 
-
+repeat(24) {
+	instance_create_layer(x, y, "Instances", oDebris);
+}
