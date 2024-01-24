@@ -12,6 +12,8 @@ if(keyboard_check(vk_right)) {
 
 if(keyboard_check(vk_up)) {
 	motion_add(image_angle, 0.04);
+} else if(keyboard_check(vk_down)) {
+	motion_add(image_angle, -0.04);
 }
 
 move_wrap(true,true,sprite_width/2);
