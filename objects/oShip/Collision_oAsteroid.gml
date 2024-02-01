@@ -3,6 +3,10 @@
 
 lives -= 1;
 
+with(oGame) {
+	alarm[1] = 60;
+}
+
 instance_destroy();
 
 repeat(24) {
